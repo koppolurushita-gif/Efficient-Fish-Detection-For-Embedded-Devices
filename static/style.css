@@ -1,0 +1,148 @@
+body {
+    font-family: "Segoe UI", Arial, sans-serif;
+    background: #020617;
+    margin: 0;
+    padding: 0;
+    color: #e5e7eb;
+}
+
+.container {
+    max-width: 1200px;
+    margin: 40px auto;
+    background: #0f172a;
+    padding: 30px;
+    border-radius: 16px;
+    box-shadow: 0 20px 40px rgba(0,0,0,0.6);
+    text-align: center;
+}
+
+h1 {
+    margin-bottom: 6px;
+}
+
+.subtitle {
+    color: #94a3b8;
+    margin-bottom: 25px;
+}
+
+.upload-box {
+    margin-bottom: 35px;
+}
+
+input[type="file"] {
+    margin-right: 10px;
+    background: #020617;
+    color: #e5e7eb;
+    border: 1px solid #334155;
+    padding: 8px;
+    border-radius: 6px;
+}
+
+button {
+    padding: 12px 26px;
+    background: linear-gradient(135deg, #22c55e, #16a34a);
+    color: #022c22;
+    border: none;
+    border-radius: 8px;
+    font-size: 15px;
+    cursor: pointer;
+}
+
+button:hover {
+    opacity: 0.9;
+}
+
+/* GRID LAYOUT (UNCHANGED) */
+.main-grid {
+    display: grid;
+    grid-template-columns: 1fr 1fr 0.9fr;
+    gap: 25px;
+    align-items: start;
+}
+
+/* IMAGE CARDS */
+.card {
+    background: #020617;
+    padding: 15px;
+    border-radius: 14px;
+    border: 1px solid #334155;
+}
+
+.card h3 {
+    color: #93c5fd;
+}
+
+.card img {
+    width: 100%;
+    border-radius: 10px;
+    margin-top: 10px;
+}
+
+/* INFO PANEL */
+.info-panel {
+    background: #020617;
+    color: #e5e7eb;
+    padding: 25px;
+    border-radius: 16px;
+    text-align: left;
+    border: 1px solid #334155;
+}
+
+.section-title {
+    margin-top: 0;
+    margin-bottom: 12px;
+    font-size: 18px;
+    color: #38bdf8;
+}
+
+.section-title.small {
+    font-size: 15px;
+    margin-top: 25px;
+}
+
+/* DETECTED FISH */
+.detected-main {
+    font-size: 28px;
+    font-weight: 700;
+    padding: 12px;
+    background: linear-gradient(135deg, #22c55e, #16a34a);
+    color: #022c22;
+    border-radius: 10px;
+    text-align: center;
+    margin-bottom: 20px;
+}
+
+.detected-main.none {
+    background: linear-gradient(135deg, #ef4444, #dc2626);
+    color: #450a0a;
+}
+
+/* SPECIES BADGES */
+.badge-container {
+    display: flex;
+    flex-wrap: wrap;
+    gap: 8px;
+}
+
+.badge {
+    background: #020617;
+    border: 1px solid #334155;
+    padding: 6px 12px;
+    border-radius: 999px;
+    font-size: 13px;
+    color: #e5e7eb;
+}
+
+/* RESOURCE UTILIZATION */
+.resource-box {
+    background: #0f172a;
+    border: 1px solid #334155;
+    padding: 12px;
+    border-radius: 10px;
+    margin-top: 10px;
+}
+
+.resource-box p {
+    margin: 6px 0;
+    font-size: 14px;
+}
